@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Porcilio PORTFOLIO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Gustavo Porcilio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">My Phone</a></li>
+                  <li><a class="dropdown-item" href="#">My Address</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">My Email</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Img-Placeholder.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/illustration-about-me@2x.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Img-Placeholder.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+    <!--Cards-->
+    <div class="row row-cols-1 row-cols-md-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="img/cards.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Professional Art Printing Data</h3>
+              <p class="card-text">A daily selection of privately personaliced reads; no account or sing-ups required. has the industry's standards.</p>
+              <a href="#" class="btn btn-danger">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/img/cacho.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Professional Art Printing Data</h3>
+              <p class="card-text">A daily selection of privately personaliced reads; no account or sing-ups required. has the industry's standards.</p>
+              <a href="#" class="btn btn-danger">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/img/cards.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Professional Art Printing Data</h3>
+              <p class="card-text">A daily selection of privately personaliced reads; no account or sing-ups required. has the industry's standards.</p>
+              <a href="#" class="btn btn-danger">See Project</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <h3>Contact Form</h3>
+    </div>
+
+    <!--form secction-->
+    <footer>
+        <div class="container my-5">
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="fullName" class="form-label">First Name</label>
+                  <input type="text" id="fullName" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <label for="fullName" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+              <div class="mb-3 my-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="yourMessage" class="form-label">Your Message</label>
+                <textarea class="form-control" id="yourMessage" rows="3" maxlength="500"></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger">Get inTouch</button>
+            </form>
+        </div>
+    </footer> 
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
